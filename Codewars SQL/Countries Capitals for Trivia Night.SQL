@@ -1,0 +1,1 @@
+select capital from countries where country LIKE 'E%' and continent in ('Africa', 'Afrika') order by capital limit 3;
